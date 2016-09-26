@@ -2,7 +2,6 @@
 @extends('layouts.app')
 
 @section('content')
-<main>
 <div class="container">
 
     <div class="row" id="lg--warning">
@@ -46,7 +45,6 @@
     </div>
 
 </div>
-</main>
 <footer class="page-footer">
     <div class="container">
         <div class="row">
