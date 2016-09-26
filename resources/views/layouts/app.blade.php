@@ -28,6 +28,8 @@
         window.Laravel = <?php echo json_encode([
                 'csrfToken' => csrf_token(),
         ]); ?>
+
+        var token = '{{ Session::token() }}';
     </script>
 
     <!-- style over-ride -->
