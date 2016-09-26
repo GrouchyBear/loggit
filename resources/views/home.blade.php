@@ -6,7 +6,7 @@
         <div class="lg--prof-pic">
         </div>
         <div class="lg--prof-info">
-          <h3>{{Auth::user()}}</h3>
+          <h3>{{$user->name}}</h3>
         </div>
 
     </div>
