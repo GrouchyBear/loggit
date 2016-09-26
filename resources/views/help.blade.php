@@ -29,14 +29,14 @@
             <ul>
                 <li class="lg--faq">How do I upload files? <br /> <a href="#">Uploads</a></li>
                 <li>My timetable is wrong. <br /> <a href="#">Notify your teacher</a></li>
-                <li>How do I logout? <br /> <a href="{{Auth::logout();}}">The logout system is a little broken at the moment.</a> </li>
+                <li>How do I logout? <br /> <a href="{{Auth::logout()->redirect()->welcome()}}">The logout system is a little broken at the moment.</a> </li>
                 <li></li>
             </ul>
         </div>
         <div class="col s6 m6">
             <h3>Send a support ticket</h3>
             <form method="post">
-            <input type="text">
+            <input type="text" placeholder="Help with ____">
             <button class="btn waves-effect waves-light" type="submit" name="action">Submit
                 <i class="material-icons right">send</i>
             </button>
