@@ -29,7 +29,7 @@
             <ul>
                 <li class="lg--faq">How do I upload files? <br /> <a href="#">Uploads</a></li>
                 <li>My timetable is wrong. <br /> <a href="#">Notify your teacher</a></li>
-                <li></li>
+                <li>How do I logout? <br /> <a href="{{}}">The logout system is a little broken at the moment.</a> </li>
                 <li></li>
             </ul>
         </div>
@@ -45,31 +45,6 @@
     </div>
 
 </div>
-<footer class="page-footer">
-    <div class="container">
-        <div class="row">
-            <div class="col l6 s12">
-                <h5 class="white-text">Footer Content</h5>
-                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-            </div>
-            <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
-                <ul>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="footer-copyright">
-        <div class="container">
-            © 2014 Copyright Text
-            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
-        </div>
-    </div>
-</footer>
 
 
 @endsection
