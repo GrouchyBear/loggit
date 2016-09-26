@@ -7,11 +7,11 @@
         </div>
         <div class="col m6">
             <div class="lg--prof-info">
-            <h3>{{}}<a href="#">Edit Name</a> </h3>
+            <h3><a href="#">Edit Name</a> </h3>
                 <ul>
-                    <li>Course: {{}}</li>
-                    <li>Attendance: {{}}</li>
-                    <li>Assignments due: {{}}</li>
+                    <li>Course:</li>
+                    <li>Attendance:</li>
+                    <li>Assignments due:</li>
                 </ul>
             </div>
         </div>
