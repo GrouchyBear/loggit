@@ -7,7 +7,7 @@
         </div>
         <div class="col m6">
             <div class="lg--prof-info">
-            <h3>{{Auth::user()->name}}</h3><span><a href="#">Edit Name</a></span>
+            <h3>\_(^-^)_/</h3><span><a href="#">Edit Name</a></span>
                 <ul>
                     <li>Course:</li>
                     <li>Attendance:</li>
