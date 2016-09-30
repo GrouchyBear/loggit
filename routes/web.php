@@ -21,3 +21,7 @@ Route::get('/home', 'HomeController@index');
 Route::get('/timetable', 'HomeController@time');
 Route::get('/assignments', 'HomeController@ass');
 Route::get('/help', 'HomeController@help');
+
+get('protected', ['middleware' => ['auth', 'admin'], function() {
+    return "this page requires that you be logged in and an Admin";
+}]);
